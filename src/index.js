@@ -1,6 +1,6 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './components/App';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import App from './components/App'
 
 class ReactApp extends React.Component {
   render() {
@@ -11,4 +11,4 @@ class ReactApp extends React.Component {
 ReactDOM.render(
   <ReactApp />,
   document.querySelector('#root')
-);
+)

@@ -1,0 +1,14 @@
+.app {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.app .header {
+	align-self: flex-start;
+	font-size: 26px;
+}
+
+.app a {
+	text-decoration: none;
+}

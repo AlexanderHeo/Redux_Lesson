@@ -1,0 +1,12 @@
+.detail div:nth-child(even) {
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+.detail div {
+	padding: 5px 10px;
+}
+
+.detail div span {
+	display: inline-block;
+	width: 90px;
+}

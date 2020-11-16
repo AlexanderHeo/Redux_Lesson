@@ -4,7 +4,7 @@ import Char from './Char'
 class CharsList extends Component {
 	_isMounted = false
 	state = {
-		characters: [],
+		characters: []
 	}
 
 	async componentDidMount() {
@@ -30,11 +30,12 @@ class CharsList extends Component {
 		return (
 			<div>
 				{
-					this.state.characters.map(char => (
-						<Char
-							key={ char.url }
-							char={ char } />
-					))
+					this.state.characters.map(char => {
+						const id = char.url.split('/')[5];
+							return <Char
+								char={ char }
+								key={ id } />
+					})
 				}
 			</div>
 		)
